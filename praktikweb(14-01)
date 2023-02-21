@@ -10,6 +10,39 @@
     <p style="border-style: dashed;font-size: 20pt; border-color: cornflowerblue;background-color: cyan;">paragraf ke 2 (berisi layanan web pembelajaran)</p>
 <center><img src="images.jfif" style="height: 50%" /><img src="https://static.wixstatic.com/media/b86cf2_065a8f4e11f945a5bd511a63cb86d60c~mv2.gif" alt=""></center>
 
+<center><h1>VIDEO</h1></center>
+<center><video width="560" controls src="Film Nusa Dan Rara.mp4"></video> <iframe width="560" height="315" src="https://www.youtube.com/embed/TqmD690tgCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+<h1>AUDIO</h1>
+<audio controls src="Lagu Anak Indonesia  Bebek.mp3"></audio>
+
+<h1>TABEL</h1>
+<table style="border: solid 2px;">
+    <tr>
+    <th>No</th>
+    <th>Nama</th>
+    <th>NIM</th>
+    <th>Asal</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>Dewia</td>
+    <td>20105241021</td>
+    <td>Magelang</td>
+</tr>
+</table>
+<br>
+<table>
+<thead>
+    <tr>
+        <td>kolom 1</td>
+        <td>kolom 2</td>
+        <td>kolom 3</td>
+    </tr>
+</thead>
+</table>
+
 
 </body>
 
