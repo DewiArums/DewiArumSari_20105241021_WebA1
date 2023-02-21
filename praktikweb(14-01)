@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>web pembelajaran</title>
+</head>
+<body>
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #785;background-color: aquamarine; text-align: center;">Judul Web</h1>
+    <h1> <center>Sub judul web</center></h1>
+    <h6> <center>Judul</h6></center>
+    <p>deskripsi tentang web pembelajaran</p>
+    <p style="border-style: dashed;font-size: 20pt; border-color: cornflowerblue;background-color: cyan;">paragraf ke 2 (berisi layanan web pembelajaran)</p>
+<center><img src="images.jfif" style="height: 50%" /><img src="https://static.wixstatic.com/media/b86cf2_065a8f4e11f945a5bd511a63cb86d60c~mv2.gif" alt=""></center>
+
+
+</body>
+
+
+</html>
