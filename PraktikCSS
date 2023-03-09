@@ -1,0 +1,63 @@
+<html lang="">
+<head>
+    <title>Latihan CSS</title>
+    <link rel="stylesheet" href="kode.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 10px;
+            box-sizing: border-box;
+            height: 100%;}
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: sienna;
+        }
+        header{
+            background-color: coral;
+            font-size: 30pt;
+            display: flex;
+            flex: 0.5;
+        }
+        main{
+            background-color: bisque;
+            display: flex;
+            flex: 4;
+        }
+        section{
+            display: flex;
+            background-color: darkkhaki;
+            width: 100%;
+            column-gap: 10px;
+        }
+        footer{
+            background-color: darksalmon;
+            display: flex;
+            flex: 0.5;
+        }
+        aside{
+            background-color: burlywood;
+            width: 20%;
+            margin-right: 20px;
+        }
+        article{
+            background-color: antiquewhite;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>header</header>
+    <main>
+        <aside>side bar</aside>
+        <section>
+            <article>konten 1</article>
+            <article>konten 2</article>
+            <article>konten 3</article>
+        </section>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
