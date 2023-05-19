@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.all-content{
+  background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #1A5F7A;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar{
+  width: 10px;
+}
+/* navbar */
+#navbar{
+  background-color: #1A5F7A;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  position: fixed;
+  z-index: 99
+}
+#logo img{
+  border-radius: 10px;
+  width: 160px;
+  margin-left: 40px;
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+  background: #f7f5f2;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button{
+  background: #19A7CE;
+  color: white;
+  border: 1px solid white;
+}
+/* navbar */
+/* home content */
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+  padding-top: 210px;
+  margin-left: 56px;
+}
+.content h3{
+  font-size: 50px;
+  color: #0C134F;
+}
+.content p{
+  margin-top: 10px;
+  color: white;
+}
+#btn{
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn:hover{
+  background: #1A5F7A;
+  color: white;
+}
+/* home content */
+
+
+
+
+
+
+/* game */
+#game{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+#game .container{
+  padding-top: 40px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.heading span{
+  color: #1A5F7A;
+}
+#game .card{
+  border-radius: 5px;
+}
+#game .card img{
+  border-radius: 5px;
+  width: 400px;
+  height: 200px;
+}
+#game-btn{
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #1A5F7A;
+  color: #1A5F7A;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#game-btn:hover{
+  background: #1A5F7A;
+  color: white;
+}
+@media screen and (max-width:982px){
+  #game p{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:766px){
+  #game p{
+    font-size: 15px;
+  }
+  #game{
+    height: 120vh;
+  }
+}
+/* game */
+
+
+
+/* kontak */
+.kontak{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  padding-top: 70px;
+}
+.kontak .container{
+  width: 100%;
+  height: 80vh;
+  background: white;
+  background: linear-gradient(90deg, white 80%, #1A5F7A 20%);
+  border-radius: 10px;
+}
+.heading6{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.heading6 span{
+  color: #1A5F7A;
+}
+.kontak p{
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+.kontak input{
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid;
+}
+#kontak-btn{
+  width: 200px;
+  height: 36px; 
+  border: none;
+  background: #1A5F7A;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#col{
+  width: 40%;
+  height: 56vh;
+  background: #0A4D68;
+  margin-top: 78px;
+}
+.kontak h1{
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.kontak #col p{
+  font-size: 15px;
+  color: white;
+  margin-left: 13px;
+  padding-top: 30px;
+}
+@media screen and (max-width:766px){
+  .kontak .container{
+  background: white;
+  }
+  #col{
+    width: 100%;
+    background: #1A5F7A;
+  }
+  .kontak{
+    height: 150vh;
+  }
+}
+@media screen and (max-width:400px){
+  .kontak input{
+    width: 250px;
+  }
+  
+}
+/* kontak */
+
+
+
+
+
+/* materi */
+.materi{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  
+
+}
+.materi h1{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.materi .container{
+  margin-top: 60px;
+}
+.materi p {
+text-align: justify;
+}
+.materi h3 {
+    font-size: 22px;
+    color: #0A4D68;
+    font-weight: bold;
+}
+.materi h5{
+  color: #1A5F7A;
+  font-size: 15px;
+}
+#materibtn{
+  width: 200px;
+  height: 36px;
+  border: none;
+  color: white;
+  background: #1A5F7A;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#materibtn:hover{
+    background: #ADE4DB;
+    color: #1A5F7A;
+  }
+/* materi */
+
+
+
+
+
+
+/* footer */
+#footer{
+  width: 100%;
+  background: #1A5F7A;
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 2px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.credite{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.credite{
+  text-shadow: 0px 0px 1px black;
+}
+.credite a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.credite a span{
+  color: black;
+}
+.copyright span{
+  color: black;
+}
+/* footer */
+html{
+  scroll-behavior: smooth;
+}
+.arrow{
+  position: fixed;
+  border-radius: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+/* content materi */
+article{
+  margin: 20px;
+  border-style: dashed;
+  border-color: #3A98B9;
+  border-radius: 25px;
+  background: #ECF2FF;
+}
+
+h2 {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 35px;
+  margin-bottom: 5px;
+  color: #1A5F7A;
+  width: 100%;
+  line-height: 50px;
+}
+
+h4 {
+  text-align: justify;
+  font-size: 20px;
+  margin: 10px;
+}
+h5 {
+  text-align: justify;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 40px;
+}
+h6 {
+  text-align: justify;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 40px;
+}
+h7 {
+  text-align: center;
+  font-family: 'comic sans ms';
+  margin: 100px;
+}
+ol {
+  font-family: 'comic sans ms';
+}
